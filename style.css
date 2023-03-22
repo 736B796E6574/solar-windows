@@ -17,7 +17,14 @@
     border: none;
 }
 
+.hero-image {
+    max-width: 90vw;
 
+}
+
+.top-links {
+    background-color: black;
+}
 
 .flare {
     background: #10be03;
@@ -50,5 +57,35 @@
     .nav-item {
         background: rgba(255, 255, 255, 0);
         margin: 2px;
+    }
+}
+
+.navbar-toggler {
+    margin: 5px;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #005f03 0%,
+            #69e19b 29%,
+            #27ff13 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
     }
 }
