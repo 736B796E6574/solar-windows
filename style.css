@@ -1,6 +1,54 @@
 #logo {
     font-weight: 700;
-    border: 1px solid black;
+
     border-radius: 5px;
     text-align: center;
+}
+
+.nav-item {
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 82px;
+    line-height: 64px;
+}
+
+#cta-button {
+    background-color: #10be03;
+    border: none;
+}
+
+
+
+.flare {
+    background: #10be03;
+    border-radius: 10px;
+}
+
+.flare a.nav-link {
+    color: #fff !important
+}
+
+.topbarElements>div:nth-of-type(1) {
+    font-size: 48px;
+    margin: 12px 32px;
+    color: #10be03;
+
+}
+
+@media screen and (min-width:1040px) {
+    .flare {
+        margin-right: -15px;
+    }
+}
+
+@media screen and (max-width:1029px) {
+    .navbar-nav {
+        margin-bottom: 15px;
+        text-align: center
+    }
+
+    .nav-item {
+        background: rgba(255, 255, 255, 0);
+        margin: 2px;
+    }
 }

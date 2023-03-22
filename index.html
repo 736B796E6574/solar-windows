@@ -16,38 +16,87 @@
 
 <body>
 
-    <div class="container">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <a id="logo" href="/" class="d-flex align-items-center p-1 text-dark text-decoration-none">SOLAR
-                WINDOW TINTING</a>
-
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Booking</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-dark me-2">+34 624 61 46 65</button>
-
+    <div class="row align-items-center text-center">
+        <div class="col">
+            <div class="topbarElements d-inline-flex align-items-center">
+                <div>&#x27A4;</div>
+                <div class="text-start d-md-block d-none">
+                    <h5 class="p-0 m-0 text-uppercase">Office</h5>
+                    <p class="p-0 m-0 text-secondary">Las Rablas Golf, Orihuela Costa</p>
+                </div>
             </div>
-        </header>
+        </div>
+        <div class="col border-start border-end">
+            <div class="topbarElements d-inline-flex align-items-center">
+                <div>&#x270E;</div>
+                <div class="text-start d-md-block d-none">
+                    <h5 class="p-0 m-0 text-uppercase">Email</h5>
+                    <p class="p-0 m-0 text-secondary">info@solartints.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="topbarElements d-inline-flex align-items-center">
+                <div>
+                    &#x260F;
+                </div>
+                <div class="text-start d-md-block d-none">
+                    <h5 class="p-0 m-0 text-uppercase">Phone</h5>
+                    <p class="p-0 m-0 text-secondary">+34 624 614 665</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 m-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="solar-logo.webp" alt="DBK Logo" height="72"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-        <h1 class="display-4 fw-bold">Experience Style and Comfort</h1>
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item flare">
+                        <a class="nav-link mx-2" href="#">Get A Quote <span class="ms-2">&#x2192;</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 pt-5 bg-dark text-center border-bottom">
+        <h1 class="display-4 text-light fw-bold">Experience Style and Comfort</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Drive in style and comfort with our professional car window tinting. Our high-quality
+            <p class="lead text-light mb-4">Drive in style and comfort with our professional car window tinting. Our
+                high-quality
                 tints keep you cool, reduce glare, and add privacy and security. Our expert technicians use only the
                 highest-quality materials to provide you with the perfect tint for your vehicle's windows. Contact us
                 now to schedule your
                 appointment.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">Book now</button>
-                <button type="button" class="btn btn-outline-dark btn-lg px-4">Learn more</button>
+                <button type="button" id="cta-button" class="btn btn-light btn-lg px-4 me-sm-3">Book now</button>
+                <button type="button" class="btn btn-outline-light btn-lg px-4">Learn more</button>
             </div>
         </div>
         <div class="overflow-hidden" style="max-height: 30vh;">
@@ -60,11 +109,11 @@
     </div>
 
 
-    <div class="container py-3">
+    <div class="container">
         <header>
 
 
-            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <div class="pricing-header p-3 pb-md-4 bg-dark mx-auto text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
                 <p class="fs-5 text-muted">Only pay for what you need. Unlike our windows, our prices are transparent.
                     Each
